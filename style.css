@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+label, input, button, select {
+    margin: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

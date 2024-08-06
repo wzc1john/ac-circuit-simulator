@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>交流电磁场探究</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>交流电磁场探究</h1>
+<canvas id="canvas" width="800" height="600"></canvas>
+<div>
+    <label for="frequency">频率 (f):</label>
+    <input type="range" id="frequency" min="1" max="100" value="50">
+    <span id="frequencyValue">50</span>
+</div>
+<div>
+    <label for="component1">元器件 1:</label>
+    <select id="component1">
+        <option value="电感">电感</option>
+        <option value="电容">电容</option>
+        <option value="电阻">电阻</option>
+    </select>
+</div>
+<div>
+    <label for="component2">元器件 2:</label>
+    <select id="component2">
+        <option value="电感">电感</option>
+        <option value="电容">电容</option>
+        <option value="电阻">电阻</option>
+    </select>
+</div>
+<button id="calculateBtn">计算</button>
+<p id="result"></p>
+<script src="script.js"></script>
+</body>
+</html>
